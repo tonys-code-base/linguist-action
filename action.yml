@@ -1,0 +1,15 @@
+name: 'Run Linguist'
+description: 'Detect languages using linguist-js'
+inputs:
+  source_root_path:
+    description: 'Root path where source code resides'
+    required: true
+    default: '.'
+outputs:
+  languages:
+    description: 'JSON formatted array of languages detected'
+  linguist_result:
+    description: 'JSON formatted output, as returned from linguist-js analysis'
+runs:
+  using: 'node20'
+  main: 'index.js'
