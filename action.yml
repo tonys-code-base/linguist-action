@@ -1,4 +1,7 @@
 name: 'Run Linguist'
+branding:
+  icon: 'list'
+  color: 'orange'
 description: 'Detect languages using linguist-js'
 inputs:
   source_root_path:
