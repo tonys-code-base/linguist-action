@@ -6,10 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": ">=12"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/tonys-code-base/linguist-action.git"
-  },  
+  },
+  "homepage": "https://github.com/tonys-code-base/linguist-action#README.md",
   "author": "Tony Tannous",
   "license": "MIT",
   "dependencies": {
