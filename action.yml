@@ -6,8 +6,8 @@ description: 'Detect languages using linguist-js'
 inputs:
   source_root_path:
     description: 'Root path where source code resides'
-    required: true
-    default: '.'
+    required: false
+    default: ${{ github.workspace }}
 outputs:
   languages:
     description: 'JSON formatted array of languages detected'
